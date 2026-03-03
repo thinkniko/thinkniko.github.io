@@ -1,4 +1,7 @@
-# Niko Janceski's Phone
+---
+layout: default
+title: Niko Janceski's Phone
+---
 
 You have found my phone. It is important to me.
 
