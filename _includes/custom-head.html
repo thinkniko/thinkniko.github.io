@@ -7,4 +7,9 @@
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
 <link rel="shortcut icon" type="image/x-icon" href="/assets/images/nikohead.ico">
 
+<!-- add redirect if page.redirect is set -->
+{% if page.redirect %}
+<meta http-equiv="refresh" content="0; url={{ page.redirect | relative_url }}" />
+{% endif %}
+
 <!-- end custom head snippets -->
